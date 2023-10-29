@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        p{
+            font-family:serif ;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Ahmet</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Hakkımda</a>
+            <a href="#abilities">Yetenekler</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Merhaba, <br>ben Ahmet KURT <br></h1>
+            <h3>Sayfama hoş geldiniz...</h3>
+            
+            <div class="btn-box">
+                <a href="mailto:1949ahmet1907@gmail.com">İletişim</a>
+            </div>
+         </div>
+         <div class="home-sci">
+            <a href="https://github.com/ahmet1949" target="_blank"><i class='bx bxl-github' ></i></a>
+         </div>
+    </section>
+    
+    <section class="about" id="about">
+        <h2 class="heading" style="font-size: 3em;">Hakkımda</h2>
+        <div class="about-content">
+            <p style="font-size: 2em;"><br>Merhaba ben Ahmet Kurt, 23 yaşındayım. <br> İstanbulda doğdum.Eğitim hayatım yüksek öğretime kadar istandul'da geçti. <br> Şu anda Süleyman Demirel Üniversitesinde bilgisayar mühendisliği bölümü 3.sınıf öğrencisiyim. <br> Bigisayar programcılığı alanında kendimi geliştirmeye çalışıyorum. <br></p>     
+        </div>
+    </section>
+
+    <section class="abilities" id="abilities">
+        <h2 style="font-size: 3em;">YETENEKLER</h2>
+        <div class="abilities-row">
+            <div class="abilities-column">
+                
+        <div class="abilites-box">       
+            <div class="abilities-content">
+                <div class="progress">
+                    
+                    <h3>WEB TASARIM <a href="#"><i class='bx bxl-html5'></i><i class='bx bxl-css3' ></i><i class='bx bxl-javascript' ></i></a><span>%70</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    
+                    <h3>JAVA <a href="#"><i class='bx bxl-java' ></i></a><span>%60</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3>C <span>%80</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3>PYTHON <a href="#"><i class='bx bxl-python'></i></a><span>%70</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+        </div> 
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">İletişim</h2>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mesajınız"></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Paylaş</button>
+            </div>
+        </form>
+    </section>
+            
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;;2023 by Ahmet Kurt |Tüm hakları saklıdır. </p>
+        </div>
+    </footer>
+        
+    <script src="script.js"></script>
+</body>
+</html>
